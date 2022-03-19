@@ -59,7 +59,18 @@
             ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
             ДЛЯ ВАШЕГО БИЗНЕСА
           </h1>
-          <button class="hero-button" type="button">Заказать услугу</button>
+          <button class="hero-button" type="button" data-modal-open>
+            Заказать услугу
+          </button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="close" data-modal-close>
+                <svg class="modal-svg" width="30" height="30">
+                  <use href="./images/close.svg"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </section>
       <!--Особенности-->
